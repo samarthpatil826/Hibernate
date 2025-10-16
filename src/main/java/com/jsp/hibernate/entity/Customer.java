@@ -17,7 +17,6 @@ public class Customer {
 	}
 
 	public Customer(int id, String name, int age, String mobileNumber) {
-		super();
 		this.id = id;
 		this.name = name;
 		this.age = age;
