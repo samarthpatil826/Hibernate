@@ -31,10 +31,10 @@ public class MarkerDriver {
 //		em.persist(m3);
 		
 		
-//		fetch/read data
+	//	fetch/read data
 		
-//		Marker m = em.find(Marker.class, 101);
-//		System.out.println(m);
+		Marker mf = em.find(Marker.class, 101);
+		System.out.println(mf);
 		
 		
 //		delete object
