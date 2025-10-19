@@ -21,17 +21,17 @@ public class MobileDriver {
         Mobile m = new Mobile(101, "apple", 70000);
 		
 		
-		et.begin();
-		
-		em.persist(m);
-		
-		
-		et.commit();
+//		et.begin();
+//		
+//		em.persist(m);
+//		
+//		
+//		et.commit();
         
         
-//        Mobile m1 = em.find(Mobile.class, 101);
-//        System.out.println(m1);
-//        
+        Mobile m1 = em.find(Mobile.class, 101);
+        System.out.println(m1);
+        
 //        Mobile m2 = em.find(Mobile.class, 101);
 //        System.out.println(m2);
 //        
