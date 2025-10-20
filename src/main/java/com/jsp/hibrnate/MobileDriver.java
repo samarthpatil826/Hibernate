@@ -29,11 +29,11 @@ public class MobileDriver {
 //		et.commit();
         
         
-        Mobile m1 = em.find(Mobile.class, 101);
-        System.out.println(m1);
+//        Mobile m1 = em.find(Mobile.class, 101);
+//        System.out.println(m1);
         
-//        Mobile m2 = em.find(Mobile.class, 101);
-//        System.out.println(m2);
+        Mobile m2 = em.find(Mobile.class, 101);
+        System.out.println(m2);
 //        
 //        
 //        EntityManager em1 = emf.createEntityManager();
