@@ -38,11 +38,11 @@ public class MobileDriver {
 //        
         EntityManager em1 = emf.createEntityManager();
         
-        Mobile m3 = em1.find(Mobile.class, 101);
-        System.out.println(m3);
+//        Mobile m3 = em1.find(Mobile.class, 101);
+//        System.out.println(m3);
 //        
-//        Mobile m4 = em1.find(Mobile.class, 101);
-//        System.out.println(m4);
+        Mobile m4 = em1.find(Mobile.class, 101);
+        System.out.println(m4);
         
 
 	}
