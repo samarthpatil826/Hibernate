@@ -21,6 +21,7 @@ public class MarkerDriver {
 		Marker m1 = new Marker(101, "red", 30.6);
 		Marker m2 = new Marker(102, "blue", 27.5);
 		Marker m3 = new Marker(103, "black", 31.8);
+		Marker m4 = new Marker(104, "green", 28.5);
 		
 		tr.begin();
 		
