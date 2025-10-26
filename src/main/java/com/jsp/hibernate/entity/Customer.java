@@ -78,6 +78,12 @@ public class Customer {
 	public void setMobileNumber(String mobileNumber) {
 		this.mobileNumber = mobileNumber;
 	}
+
+	@Override
+	public String toString() {
+		return "Customer [id=" + id + ", name=" + name + ", age=" + age + ", mobileNumber=" + mobileNumber + "]";
+	}
+	
 	
 
 }
