@@ -27,9 +27,9 @@ public class MarkerDriver {
 		
 //		save/insert operation
 		
-//		em.persist(m1);
-//		em.persist(m2);
-//		em.persist(m3);
+		em.persist(m1);
+		em.persist(m2);
+		em.persist(m3);
 		
 		
 	//	fetch/read data
