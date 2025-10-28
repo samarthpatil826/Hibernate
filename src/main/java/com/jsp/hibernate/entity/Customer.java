@@ -23,9 +23,7 @@ public class Customer {
 		this.mobileNumber = mobileNumber;
 	}
 
-	/**
-	 * @return the id
-	 */
+	
 	public int getId() {
 		return id;
 	}
